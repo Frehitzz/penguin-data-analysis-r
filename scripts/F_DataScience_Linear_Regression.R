@@ -1,4 +1,4 @@
-# AUTHOR: Fritz Harly G. Degamo
+# AUTHOR: Ralph Blancas
 # PROJECT: Finals R Project
 # CATEGORY: f. data science script 2
 # DESCRIPTION: use linear regression to predict body mass from bill length

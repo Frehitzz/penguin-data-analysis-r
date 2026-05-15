@@ -2,6 +2,12 @@
 
 **Author:** Fritz Harly G. Degamo
 
+**Members:**
+
+Ralp Casey Blancas
+
+Karl Sabularse
+
 This project is a finals requirement for R/RStudio covering core programming structures, functions, visualization, and basic data science using the `palmerpenguins` dataset.
 
 ## Project Overview

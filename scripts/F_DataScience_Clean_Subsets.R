@@ -1,4 +1,4 @@
-# AUTHOR: Fritz Harly G. Degamo
+# AUTHOR: Ralph Blancas
 # PROJECT: Finals R Project
 # CATEGORY: f. data science script 1
 # DESCRIPTION: clean the data and compare species-level summaries

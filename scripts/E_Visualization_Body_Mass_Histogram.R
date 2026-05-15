@@ -1,4 +1,4 @@
-# AUTHOR: Fritz Harly G. Degamo
+# AUTHOR: Karl Sabularse
 # PROJECT: Finals R Project
 # CATEGORY: e. data visualization script 1
 # DESCRIPTION: show the distribution of body mass by species using ggplot2

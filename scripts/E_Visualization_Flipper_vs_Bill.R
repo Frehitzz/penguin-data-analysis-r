@@ -1,4 +1,4 @@
-# AUTHOR: Fritz Harly G. Degamo
+# AUTHOR: Karl Sabularse
 # PROJECT: Finals R Project
 # CATEGORY: e. data visualization script 2
 # DESCRIPTION: show the relationship between flipper length and bill length
