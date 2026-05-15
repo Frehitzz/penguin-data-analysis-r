@@ -1,0 +1,10 @@
+"Species","Metric","Value"
+"Adelie","Count",151
+"Adelie","Avg_Bill_Length",38.7913907284768
+"Adelie","Avg_Body_Mass",3700.66225165563
+"Chinstrap","Count",68
+"Chinstrap","Avg_Bill_Length",48.8338235294118
+"Chinstrap","Avg_Body_Mass",3733.08823529412
+"Gentoo","Count",123
+"Gentoo","Avg_Bill_Length",47.5048780487805
+"Gentoo","Avg_Body_Mass",5076.0162601626
