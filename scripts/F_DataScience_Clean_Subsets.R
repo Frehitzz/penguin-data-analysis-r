@@ -2,6 +2,9 @@
 # PROJECT: Finals R Project
 # CATEGORY: f. data science script 1
 # DESCRIPTION: clean the data and compare species-level summaries
+# EXPLANATION: This script cleans the penguin data by removing missing values and splitting the dataset into 
+#              separate subsets for Adelie, Chinstrap, and Gentoo. It then creates a comparison table and 
+#              reshapes the result for plotting. The goal is to make species-level differences easier to inspect
 
 library(palmerpenguins)
 library(tidyverse)

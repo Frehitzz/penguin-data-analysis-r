@@ -2,6 +2,9 @@
 # PROJECT: Finals R Project
 # CATEGORY: f. data science script 2
 # DESCRIPTION: use linear regression to predict body mass from bill length
+# EXPLANATION This script applies a simple linear regression model where body_mass_g 
+#             is predicted using bill_length_mm. The output shows the model summary and
+#             a sample prediction for a penguin with a 45 mm bill length. The script is meant to demonstrate a basic predictive workflow in R.
 
 library(palmerpenguins)
 

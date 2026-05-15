@@ -2,6 +2,9 @@
 # PROJECT: Finals R Project
 # CATEGORY: e. data visualization script 2
 # DESCRIPTION: show the relationship between flipper length and bill length
+# EXPLANATION: this graph shows the relationship between flipper length and bill length across penguin records
+#              the upward trend suggests that penguins with longer flippers also tend to have longer bills in this dataset
+#              the species colors and shapes help show that the pattern is shared across groups while still revealing variation between species
 
 library(palmerpenguins)
 library(ggplot2)
@@ -26,3 +29,8 @@ ggplot(data = penguins_measurements, aes(x = flipper_length_mm, y = bill_length_
     shape = "Species"
   ) +
   theme_light()
+
+# EXPLANATION
+# this graph shows the relationship between flipper length and bill length across penguin records
+# the upward trend suggests that penguins with longer flippers also tend to have longer bills in this dataset
+# the species colors and shapes help show that the pattern is shared across groups while still revealing variation between species

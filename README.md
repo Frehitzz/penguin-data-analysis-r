@@ -73,7 +73,7 @@ Finals_R_Project/
 
 ### What You Need To Install
 
-Yes. A user needs to have these installed first:
+A user needs to have these installed first:
 
 - `R`
 - `RStudio` recommended
@@ -158,6 +158,16 @@ This scatter plot shows a positive relationship between flipper length and bill 
 ![Species Comparison](output/F_DataScience_Clean_Subsets.png)
 
 This figure compares species-level summary metrics. It shows differences in sample size, average bill length, and average body mass, helping reveal how Gentoo differs from Adelie and Chinstrap in overall size.
+
+## Explanation For Data Visualization Scripts
+
+### `E_Visualization_Body_Mass_Histogram.R`
+
+This script creates a histogram to compare the distribution of body mass across the three penguin species. The main purpose is to show how the weight of Adelie, Chinstrap, and Gentoo penguins differs across the dataset. The result makes it easier to see that Gentoo penguins are generally heavier, while Adelie and Chinstrap are grouped more in the lower body mass ranges.
+
+### `E_Visualization_Flipper_vs_Bill.R`
+
+This script creates a scatter plot to examine the relationship between flipper length and bill length. The graph helps show whether larger flipper measurements tend to match larger bill measurements. The regression line and species-based colors make the trend easier to interpret and show that there is a positive relationship in the sample.
 
 ## Explanation For Data Science Scripts
 
