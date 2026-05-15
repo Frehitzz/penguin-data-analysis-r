@@ -71,27 +71,61 @@ Finals_R_Project/
 
 ## How To Run
 
-### Requirements
+### What You Need To Install
 
-- R
-- RStudio
-- packages: `palmerpenguins`, `ggplot2`, `tidyverse`
+Yes. A user needs to have these installed first:
 
-### Install packages
+- `R`
+- `RStudio` recommended
+- R packages: `palmerpenguins`, `ggplot2`, `tidyverse`
+
+### Install The Required Packages
+
+Run this once in the R console:
 
 ```r
 install.packages(c("palmerpenguins", "ggplot2", "tidyverse"))
 ```
 
-### Run a script
+### Open The Project
 
-Open the project in RStudio, then run any script from the `scripts/` folder.
+1. Open `Finals_R_Project.Rproj` in RStudio
+2. Make sure the working directory is the project root
+3. Open any script inside the `scripts/` folder
 
-Example:
+### Run The Scripts In RStudio
+
+You can run a script in either of these ways:
+
+1. Open the script and click `Source`
+2. Run this in the R console
+
+```r
+source("scripts/A_For_Loops_Inventory.R")
+source("scripts/A_For_Loops_Summary_Table.R")
+source("scripts/B_While_Loops_First_10_Species.R")
+source("scripts/B_While_Loops_Max_Min_Avg.R")
+source("scripts/C_Repeat_Loops_Find_Dream_Island.R")
+source("scripts/C_Repeat_Loops_Accumulate_Bills.R")
+source("scripts/D_Functions_Convert_Kg.R")
+source("scripts/D_Functions_Deviation_Table.R")
+source("scripts/E_Visualization_Body_Mass_Histogram.R")
+source("scripts/E_Visualization_Flipper_vs_Bill.R")
+source("scripts/F_DataScience_Clean_Subsets.R")
+source("scripts/F_DataScience_Linear_Regression.R")
+```
+
+### Run One Script Example
 
 ```r
 source("scripts/E_Visualization_Body_Mass_Histogram.R")
 ```
+
+### Notes About Running
+
+- the scripts use the `palmerpenguins` package directly
+- the physical dataset copies in `data/` are included for documentation and submission
+- generated tables and saved outputs are placed in `output/`
 
 ## Generated Outputs
 
