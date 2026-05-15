@@ -13,7 +13,7 @@ library(ggplot2)
 ggplot(data = penguins, aes(x = body_mass_g, fill = species)) +
   
   # COUNTS HOW MANY PENGUINS FALL INTO EACH bin/range of body mass, then create a bars for them
-  # geom_histogram() - built-in functions that automatically display the frequency
+  # geom_histogram() - built-in functions that automatically display the frequency, and it tell this is the chart we will use
   #alpha = 0.6 - transparency
     # why 0.6? - let overlap the bars colors and mix the colors
   #position = "identity" - make the bars overlap to each other
